@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Latitude Analysis Dashboard with Attitude</title>
+  <title>cloudiness Details</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -33,7 +33,7 @@
               <li class="active"><a href="data.html">Data <span class="sr-only">(current)</span></a></li>
               <li><a href="comparison.html">Comparison</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="temperature.html">Temperature</a></li>
                   <li><a href="humidity.html">Humidity</a></li>
@@ -47,65 +47,62 @@
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
-
+      
 
     <!--this is row-2 for main display image and charts.-->
-  <div class="container">
-    <div class="col-md-6">  
-        <div class="box box-1"></div>
-        <h2><strong>Summary: Latitude Vs. X</strong></h2>
-        <P>click any plot on right to get indepth Analysis</P>
-        <img src="images/temparature.png" alt="temperature" height="500" width="600">
-        <p>The 4 data generated graphs for this assignment are: 
-              * Temperature (F) against Latitude 
-              * Humidity (%) against Latitude 
-              * Cloudiness(%) against Latitude 
-              * Wind Speed (mph) against Latitude 
-              Of course, land and water formations, along with current weather patterns will all affect these charts on any given day, and a true analysis would be better viewed over the averages over a larger time period.
-              Click a figure for trends</p>
-    </div>
-    <div class="col-md-6">
-        <div class="box box-1"></div>
-      <div class="row">
-        <h3><strong>Visualizations</strong></h3>
-      </div>
-    <div class="row">
-      <div class="col-md-6">
-          <div class="box box-1"></div>
-          <a href="temperature.html">
-            <p><strong>Temperature</strong></p>
-            <img src="images/temparature.png" alt="temperature" height="250" width="300">
-          </a>
-      </div>
-      <div class="col-md-6">
-          <div class="box box-1"></div>
-          <a href="humidity.html">
-          <p><strong>Humidity</strong></p>
-          <img src="images/humidity.png" alt="humidity" height="250" width="300">
-          </a>
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
+    <div class="container">
+        <div class="col-md-6">  
             <div class="box box-1"></div>
-            <a href="cloudiness.html">
-            <p><strong>Cloudiness</strong></p>
-            <img src="images/cloudiness.png" alt="cloudiness" height="250" width="300"> 
-            </a>  
+            <h2><strong>Summary: Latitude Vs. Cloudiness</strong></h2>
+            <P>click any plot on right to get indepth Analysis</P>
+            <img src="images/cloudiness.png" alt="cloudiness" height="500" width="600">
+            <p>
+                Cloudiness is also subject to atmospheric weather patterns for the day. For today's date 
+                there seems to be show more numerous pattern of cloudy weather outside the lower equator 
+                belt. In comparison of this chart with the Example chart given for this assignment that was 
+                taken in January, that same break in cloudiness exists in both charts which might indicate 
+                that the weather patterns might be generally sunnier that region of latitudes.
+              </p>
         </div>
         <div class="col-md-6">
             <div class="box box-1"></div>
-            <a href="wind_speed.html">
-            <p><strong>Windspeed</strong></p>            
-            <img src="images/windspeed.png" alt="windspeed" height="250" width="300">
-            </a>
+          <div class="row">
+            <h3><strong>Visualizations</strong></h3>
+          </div>
+        <div class="row">
+          <div class="col-md-6">
+              <div class="box box-1"></div>
+              <a href="temperature.html">
+                <p><strong>Temperature</strong></p>
+                <img src="images/temparature.png" alt="temperature" height="250" width="300">
+              </a>
+          </div>
+          <div class="col-md-6">
+              <div class="box box-1"></div>
+              <a href="humidity.html">
+              <p><strong>Humidity</strong></p>
+              <img src="images/humidity.png" alt="humidity" height="250" width="300">
+              </a>
+          </div>
         </div>
-    </div>
-  </div>
-      
-
-  
-      
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box box-1"></div>
+                <a href="cloudiness.html">
+                <p><strong>Cloudiness</strong></p>
+                <img src="images/cloudiness.png" alt="cloudiness" height="250" width="300"> 
+                </a>  
+            </div>
+            <div class="col-md-6">
+                <div class="box box-1"></div>
+                <a href="wind_speed.html">
+                <p><strong>Windspeed</strong></p>            
+                <img src="images/windspeed.png" alt="windspeed" height="250" width="300">
+                </a>
+            </div>
+        </div>
+      </div>
+     
 
 </body>
 
